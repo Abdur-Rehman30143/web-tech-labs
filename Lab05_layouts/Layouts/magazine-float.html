@@ -1,41 +1,47 @@
 <!DOCTYPE html>
-
 <html>
 <head>
 <title>Magazine Float Layout</title>
-<link rel="stylesheet" href="../styles/float.css">
+
 <link rel="stylesheet" href="../styles/base.css">
+<link rel="stylesheet" href="../styles/float.css">
+
 </head>
 
 <body>
 
 <header>
-<h1>Magazine Style Layout</h1>
+<h1>Magazine Layout (Float Based)</h1>
 </header>
 
 <div class="clearfix">
 
 <div style="float:left;width:70%;padding:15px;">
+
 <h2>Main Article</h2>
 
-<img src="https://via.placeholder.com/300" class="float-img">
+<img src="../images/magazine.jpg" class="float-img" alt="Magazine Image">
 
 <p>
-This layout demonstrates a magazine style page created using CSS floats.
-Text wraps around images and columns are built using float based layout.
+This page demonstrates a magazine style layout using CSS float.
+The image floats on the left side and text wraps around it.
 </p>
 
 <p>
-Floats were traditionally used before Flexbox and Grid to build multi-column layouts.
+Float layouts were traditionally used to build multi-column designs before
+Flexbox and CSS Grid became popular.
 </p>
 
 </div>
 
 <aside style="float:right;width:25%;background:#eee;padding:15px;">
+
 <h3>Sidebar</h3>
+
 <p>Latest News</p>
-<p>Trending Topics</p>
-<p>Popular Articles</p>
+<p>Trending Articles</p>
+<p>Popular Topics</p>
+
 </aside>
 
 </div>
