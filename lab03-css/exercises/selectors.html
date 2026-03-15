@@ -24,6 +24,7 @@ ul li:first-child{color:green;}
 
 <nav>
 <ul>
+<li><a href="index.html">Home</a></li>
 <li><a href="selectors.html">Selectors</a></li>
 <li><a href="typography.html">Typography</a></li>
 <li><a href="backgrounds.html">Backgrounds</a></li>
@@ -33,16 +34,59 @@ ul li:first-child{color:green;}
 
 <header><h1>CSS Selectors</h1></header>
 
-<section>
-<p class="highlight">Class Selector Example</p>
-<p id="special">ID Selector Example</p>
+<section id="selectors" class="section">
+            <div class="container">
+                <h2>Task 1: CSS Selectors Practice</h2>
+                
+                <!-- Basic Selectors -->
+                <div class="task-container">
+                    <h3>Basic Selectors</h3>
+                    <p>This is a paragraph with element selector</p>
+                    <div class="highlight">Class selector example</div>
+                    <div id="unique">ID selector example</div>
+                    <span class="text-color">Universal selector applies to all</span>
+                </div>
 
-<ul>
-<li>First Item</li>
-<li>Second Item</li>
-<li>Third Item</li>
-</ul>
-</section>
+                <!-- Attribute Selectors -->
+                <div class="task-container">
+                    <h3>Attribute Selectors</h3>
+                    <input type="text" placeholder="Text input">
+                    <input type="email" placeholder="Email input">
+                    <a href="https://example.com" target="_blank">External Link</a>
+                    <a href="internal.html">Internal Link</a>
+                </div>
 
+                <!-- Combinators -->
+                <div class="task-container">
+                    <h3>Combinators</h3>
+                    <div class="parent">
+                        <p>Direct child paragraph</p>
+                        <div>
+                            <p>Nested paragraph (descendant)</p>
+                        </div>
+                    </div>
+                    <p class="adjacent">Adjacent sibling</p>
+                    <p>General sibling</p>
+                </div>
+
+                <!-- Pseudo-classes -->
+                <div class="task-container">
+                    <h3>Pseudo-classes</h3>
+                    <ul class="pseudo-list">
+                        <li>First child</li>
+                        <li>Middle child</li>
+                        <li>Last child</li>
+                    </ul>
+                    <a href="#" class="link-demo">Hover me!</a>
+                </div>
+
+                <!-- Pseudo-elements -->
+                <div class="task-container">
+                    <h3>Pseudo-elements</h3>
+                    <p class="first-letter-demo">This paragraph has styled first letter</p>
+                    <p class="before-after">Content with before and after</p>
+                </div>
+            </div>
+        </section>
 </body>
 </html>

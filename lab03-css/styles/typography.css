@@ -1,5 +1,26 @@
+/* Font Examples */
+.font1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #2c3e50;
+}
 
-.font1{font-family:Poppins;}
-.font2{font-family:Montserrat;}
-.upper{text-transform:uppercase;}
-.shadow{text-shadow:2px 2px 5px gray;}
+.font2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #16a085;
+}
+
+/* Uppercase Text */
+.upper{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #2980b9;
+}
+
+/* Text Shadow */
+.shadow{
+    font-size: 22px;
+    color: #e74c3c;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
