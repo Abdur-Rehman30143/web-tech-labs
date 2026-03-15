@@ -1,0 +1,17 @@
+.grid-container{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.grid-item{
+background:#ddd;
+padding:40px;
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:10px;
+}

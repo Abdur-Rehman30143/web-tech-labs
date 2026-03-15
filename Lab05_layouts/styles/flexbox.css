@@ -1,0 +1,22 @@
+.flex-container{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.flex-item{
+background:skyblue;
+padding:20px;
+flex:1;
+}
+
+.card{
+display:flex;
+flex-direction:column;
+border:1px solid #ddd;
+padding:20px;
+}
+
+.card button{
+margin-top:auto;
+}

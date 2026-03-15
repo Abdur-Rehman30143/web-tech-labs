@@ -1,0 +1,69 @@
+/* Mobile First Base Styles */
+
+.container{
+width:100%;
+padding:10px;
+}
+
+.row{
+display:flex;
+flex-wrap:wrap;
+}
+
+.col{
+flex:1;
+padding:10px;
+}
+
+/* Tablet */
+@media (min-width:768px){
+
+.container{
+max-width:720px;
+margin:auto;
+}
+
+.col-6{
+flex:0 0 50%;
+}
+
+.col-4{
+flex:0 0 33.33%;
+}
+
+}
+
+/* Small Desktop */
+@media (min-width:1024px){
+
+.container{
+max-width:960px;
+}
+
+.col-3{
+flex:0 0 25%;
+}
+
+.col-9{
+flex:0 0 75%;
+}
+
+}
+
+/* Large Desktop */
+@media (min-width:1200px){
+
+.container{
+max-width:1140px;
+}
+
+}
+
+/* Extra Large Screens */
+@media (min-width:1400px){
+
+.container{
+max-width:1320px;
+}
+
+}
