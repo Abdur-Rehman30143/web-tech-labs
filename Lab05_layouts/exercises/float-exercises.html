@@ -7,23 +7,30 @@
 
 <body>
 
-<div class="clearfix">
+<header>
+    <h1>Float Layout Demo</h1>
+</header>
 
-<img src="https://via.placeholder.com/200" class="float-img">
+<!-- Image + Text Wrap -->
+<section class="container clearfix">
+    
+    <img src="../images/1.jfif" class="float-img" alt="Sample Image">
 
-<p>
-This text wraps around the floating image demonstrating float layout.
-</p>
+    <p>
+        This text wraps around the floating image demonstrating how the float property works in CSS. 
+        It allows content to flow naturally around elements like images, creating magazine-style layouts.
+    </p>
 
-</div>
+</section>
 
-<div class="clearfix">
+<!-- 3 Column Layout -->
+<section class="container clearfix">
 
-<div class="column">Column 1</div>
-<div class="column">Column 2</div>
-<div class="column">Column 3</div>
+    <div class="column">Column 1</div>
+    <div class="column">Column 2</div>
+    <div class="column">Column 3</div>
 
-</div>
+</section>
 
 </body>
 </html>

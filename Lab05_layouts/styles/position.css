@@ -1,27 +1,52 @@
-.relative{
-position:relative;
-left:30px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
-.absolute{
-position:absolute;
-top:50px;
-left:50px;
-background:red;
-color:white;
-padding:10px;
+/* Static (default) */
+.static-box {
+    background: lightgray;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
-.fixed{
-position:fixed;
-top:0;
-width:100%;
-background:black;
-color:white;
+/* Relative + Absolute */
+.relative-box {
+    position: relative;
+    background: lightblue;
+    padding: 50px;
+    margin-bottom: 20px;
 }
 
-.sticky{
-position:sticky;
-top:0;
-background:yellow;
+.absolute-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+/* Fixed Header */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    z-index: 1000;
+    margin-bottom: 80px; /* push content below */
+}
+
+/* Sticky */
+.sticky-box {
+    position: sticky;
+    top: 50px; /* distance from top */
+    background: lightgreen;
+    padding: 20px;
+    margin-top: 100px;
 }
